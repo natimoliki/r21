@@ -1,0 +1,200 @@
+@media (max-width:1024px) {
+    .row-1 {
+        flex-wrap: wrap; 
+        width: 100%;       
+        align-items: center;
+        justify-content: center;      
+    }
+
+
+.ch-div1 {
+    height: 210px;
+}    
+
+
+
+}
+
+
+
+
+@media (max-width:768px) {
+    .cont-flex{
+        flex-direction: column;    
+}
+
+
+.child-box1 {
+    width: 100%;
+}   
+    
+.R-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}   
+
+.nav-a-item {
+    font-size: 15px;
+    margin-left: 10px;
+   
+}
+
+.ul-item {
+column-gap: 10px;
+    }
+.fa-universal-access    {display: none;
+}
+
+.pic-div {
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+  
+    
+}
+
+
+.ch-div1 {
+        width: 100%;      
+       height: auto;  
+}
+
+.row-11 {   
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    gap:10px
+}
+
+.left-wraper,
+.right-wraper{
+    width: 100%;
+}
+.left-wraper1 {
+    background-position: top-right;
+    background-size: cover;
+    width: 100%;
+}
+.martva-con {
+    flex-direction: column;
+}
+.martva-child2 {width: 100%;
+}
+
+
+.martva-child1 {width: 100%;
+}
+
+.contact-flex {
+    flex-direction: column;
+    gap:10px;
+}
+.left-contact,
+.right-contact{
+width: 100%;
+}
+
+.inf-section {
+    flex-direction: column;
+}
+.left-inf,
+.right-inf { width: 100%;  
+    justify-content: center;
+    align-items: center;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) 
+{
+.nav-a-item {
+        font-size: 10px;
+    }
+
+.ul-item {      
+        column-gap: 3px;
+        margin-left: 5px;
+        }
+
+.h1-title {
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: normal;
+}
+
+.row-1 {
+flex-direction: column;
+flex-direction: column-reverse;
+width: 90%;
+align-items: center;}
+
+.left-wraper,
+.right-wraper,
+.left-wraper1
+ {
+    width: 100%;
+}
+
+.footer-c {
+    display: flex;
+    flex-direction: column;
+}
+.header-div {justify-content: space-around;}    
+
+}
+
+
+@media (max-width:320px) 
+{
+
+.logo-header {
+    display: none;
+}
+
+.h1-title {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.fa-bars {
+    display: block;
+    margin-left: 10px;
+    margin-right: 2px;
+    font-size: 15px;
+  
+}
+
+ul-item {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+.header-div {
+    height: 70px;
+}
+
+}
